@@ -12,6 +12,7 @@ _Go modules by example_ is a series of work-along guides that look to help expla
 * [Using modules to generate a vendor](https://github.com/myitcv/go-modules-by-example/blob/master/008_vendor_example/README.md)
 * [How to use submodules](https://github.com/myitcv/go-modules-by-example/blob/master/009_submodules/README.md)
 * [Tools as dependencies](https://github.com/myitcv/go-modules-by-example/blob/master/010_tools/README.md)
+* [Using `gohack` to "hack" on dependencies](https://github.com/myitcv/go-modules-by-example/blob/master/011_using_gohack/README.md)
 * ...
 
 See the [Feedback and TODO wiki](https://github.com/myitcv/go-modules-by-example/wiki/Feedback-TODO) for more up-to-date

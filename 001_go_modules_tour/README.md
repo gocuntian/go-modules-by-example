@@ -457,7 +457,7 @@ created:
 ```
 $ go test github.com/you/hello rsc.io/quote
 ?   	github.com/you/hello	[no test files]
-ok  	rsc.io/quote	0.002s
+ok  	rsc.io/quote	0.003s
 ```
 
 In the original go command, the package pattern all meant all packages found in
@@ -559,7 +559,7 @@ require (
 )
 $ go test github.com/you/hello rsc.io/quote
 ?   	github.com/you/hello	[no test files]
-ok  	rsc.io/quote	0.003s
+ok  	rsc.io/quote	0.002s
 ```
 
 Downgrading one package may require downgrading others. For example:
@@ -725,7 +725,7 @@ fork github.com/rsc/quote and then push your change to your fork.
 $ cd ../quote
 $ git remote add $GITHUB_USERNAME https://github.com/$GITHUB_USERNAME/go-modules-by-example-quote-fork
 $ git commit -a -m 'my fork'
-[my_quote e94fdd2] my fork
+[my_quote 5938491] my fork
  1 file changed, 1 insertion(+), 1 deletion(-)
 $ git push $GITHUB_USERNAME
 To https://github.com/myitcv/go-modules-by-example-quote-fork
